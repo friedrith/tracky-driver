@@ -1,0 +1,46 @@
+{
+  "name": "tracky-driver",
+  "version": "0.1.0",
+  "description": "tracky driver for computer",
+  "main": "dist/app.js",
+  "scripts": {
+    "watch": "babel src/app.js --out-file dist/app.js --watch",
+    "build": "babel src/app.js --out-file dist/app.js",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/friedrith/tracky-driver.git"
+  },
+  "keywords": [
+    "driver",
+    "tracky"
+  ],
+  "author": "Thibault Friedrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/friedrith/tracky-driver/issues"
+  },
+  "homepage": "https://github.com/friedrith/tracky-driver#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-regenerator": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.23.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "serialport": "^6.0.4"
+  }
+}

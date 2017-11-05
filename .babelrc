@@ -1,0 +1,4 @@
+{
+  "plugins": ["transform-class-properties", "transform-object-rest-spread", "syntax-async-functions","transform-regenerator"],
+  "presets": ["es2017", "es2015", "stage-2"]
+}
